@@ -16,7 +16,7 @@ h1{
     height: 5vh;
     width: 60%;
     outline: none;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 2px 2px  rgb(38, 204, 38);
     border: none;
 }
@@ -24,20 +24,20 @@ h1{
    height: 5vh;
     width: 40%;
     outline: none;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 2px 2px  rgb(38, 204, 38);
     border: none;
     margin-left: 1em;
     margin-top: 3em;
     margin-bottom: 3em;
+    font-size: larger;
 }
   span{
     /* background: rgb(233, 233, 110); */
    padding: 5px;
    background:red;
    text-align: center;
-   font-size: larger;
-   border-radius: 8px;
+   border-radius: 15px;
    margin-left: 10px;
    cursor: pointer;
     box-shadow: 1.5px 1.5px rgb(238, 200, 238);
@@ -46,6 +46,7 @@ h1{
 }
 .done{
     cursor: pointer;
+    background:  rgb(38, 204, 38);
 }
 .text{
 height: 10vh;

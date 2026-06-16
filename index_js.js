@@ -11,8 +11,8 @@ ajouter.addEventListener("click", () => {
    var elt =document.createElement("div")
    elt.innerHTML = `
      <input type="text" class="list" value=" ${donnee}"/>
-          <b class="done">✅ </b>
-      <span id="delete">➕ </span>
+          <span class="done">do </span>
+      <span id="delete">Delete </span>
     `;
     elt.style.cssText=`margin-top:12px`
      var  done= elt.querySelector(".done")
